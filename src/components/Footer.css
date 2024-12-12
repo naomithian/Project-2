@@ -1,10 +1,13 @@
-
 .footer_container {
     position: relative;
     width: 100%;
     background-color: whitesmoke;
     text-align: center; 
     padding: 50px 0; 
+  }
+  
+  .footer_container * {
+    color: #000; 
   }
   
   .footer_header {
@@ -23,7 +26,7 @@
     top: 40%; 
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #696868;
+    color: #000; 
     z-index: 10;
   }
   
@@ -73,27 +76,67 @@
     font-weight: 500;
     font-size: 2rem;
     margin-bottom: 20px; 
+    color: #000; 
   }
   
   #bot_p,
   #email {
-    color: #929292;
+    color: #000; 
     margin-bottom: 10px; 
   }
   
   .bottom_container hr {
     width: 100%;
     margin: 20px auto; 
+    border-color: #000; 
   }
   
   #subscribe {
     text-decoration: underline;
     font-weight: 400;
     margin-bottom: 20px; 
+    color: #000; 
   }
   
   .navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
-  }  
+    flex-wrap: wrap; 
+    padding: 20px 0; 
+  }
+  
+  .nav-column {
+    flex: 1;
+    min-width: 150px; 
+    margin: 20px; 
+  }
+  
+  .nav-column h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #000; 
+  }
+  
+  .nav-column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .nav-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .nav-column ul li a {
+    color: #000; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-column ul li a:hover {
+    color: #3f3f3f; 
+  }
+  
