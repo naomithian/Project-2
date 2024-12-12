@@ -1,12 +1,12 @@
 import React from 'react';
 import './SignatureCreations.css';
-import oceanicImg from '../assets/Oceanic.png'; 
-import urbanImg from '../assets/Urban.png'; 
-import rusticImg from '../assets/Rustic.png'; 
+import oceanicImg from '../assets/Oceanic.png'; // Adjust the path if necessary
+import urbanImg from '../assets/Urban.png'; // Adjust the path if necessary
+import rusticImg from '../assets/Rustic.png'; // Adjust the path if necessary
 
 const SignatureCreations = () => {
   return (
-    <section className="signature-creations">
+    <section id="SignatureCreations" className="signature-creations">
       <h2 className="section-title">Signature Creations</h2>
       <div className="creation">
         <img src={oceanicImg} alt="Oceanic Elegance" />

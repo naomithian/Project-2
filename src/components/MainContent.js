@@ -1,11 +1,11 @@
 import React from 'react';
 import './MainContent.css';
-import whoWeAreImg from '../assets/WhoWeAre.png';
-import elementImg from '../assets/Element.png'; 
+import whoWeAreImg from '../assets/WhoWeAre.png'; // Adjust the path if necessary
+import elementImg from '../assets/Element.png'; // Adjust the path if necessary
 
 const MainContent = () => {
   return (
-    <div className="new-layout">
+    <div id="MainContent" className="new-layout">
       <div className="image-left">
         <img src={whoWeAreImg} alt="Left side image" />
       </div>

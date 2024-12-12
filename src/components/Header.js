@@ -11,11 +11,10 @@ const Header = () => {
       <nav>
         <div className="logo">NDH STUDIO</div>
         <ul className="nav-links">
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">SERVICES</a></li>
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">BLOGS</a></li>
-          <li><a href="#">CONTACT US</a></li>
+          <li><a href="#MainContent">ABOUT US</a></li>
+          <li><a href="#SignatureCreations">SERVICES</a></li>
+          <li><a href="#SignatureCreations">PORTFOLIO</a></li>
+          <li><a href="#Footer">CONTACT US</a></li>
         </ul>
       </nav>
       <div className="hero">

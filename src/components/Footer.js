@@ -1,10 +1,10 @@
 import React from 'react';
 import './Footer.css';
-import footerImage from '../assets/footerimage.png';
+import footerImage from '../assets/footerimage.png'; // Adjust the path if necessary
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id="Footer">
       <div className="footer_container">
         <h1 className="footer_header">Ready to redefine <br /> your space?</h1>
         <img className="footer_image" src={footerImage} alt="chair and wheat" />
