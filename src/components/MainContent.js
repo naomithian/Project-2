@@ -1,7 +1,7 @@
 import React from 'react';
 import './MainContent.css';
-import whoWeAreImg from '../assets/WhoWeAre.png'; // Adjust the path if necessary
-import elementImg from '../assets/Element.png'; // Adjust the path if necessary
+import whoWeAreImg from '../assets/WhoWeAre.png'; 
+import elementImg from '../assets/Element.png'; 
 
 const MainContent = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import './SignatureCreations.css';
-import oceanicImg from '../assets/Oceanic.png'; // Adjust the path if necessary
-import urbanImg from '../assets/Urban.png'; // Adjust the path if necessary
-import rusticImg from '../assets/Rustic.png'; // Adjust the path if necessary
+import oceanicImg from '../assets/Oceanic.png'; 
+import urbanImg from '../assets/Urban.png'; 
+import rusticImg from '../assets/Rustic.png'; 
 
 const SignatureCreations = () => {
   return (
