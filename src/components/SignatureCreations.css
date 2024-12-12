@@ -1,0 +1,53 @@
+/* src/components/SignatureCreations.css */
+.signature-creations {
+    padding: 70px 30px;
+    background-color: #f5efe6; 
+  }
+  
+  .signature-creations .section-title {
+    font-size: 2em; 
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+  
+  .creation {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; 
+  }
+  
+  .creation img {
+    width: 350px; 
+    height: auto;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+  
+  .creation-description {
+    max-width: 900px; 
+  }
+  
+  .creation-description h3 {
+    font-size: 2em; 
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .creation-description p {
+    font-size: 1em; 
+    margin-bottom: 20px;
+  }
+  
+  .creation-description .learn-more {
+    font-size: 1em; 
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .creation-description .learn-more:hover {
+    color: #a58b6f;
+    border-color: #a58b6f;
+  }
+  

@@ -1,0 +1,99 @@
+/* src/components/Footer.css */
+.footer_container {
+    position: relative;
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center; /* Center the text */
+    padding: 50px 0; /* Add some padding for spacing */
+  }
+  
+  .footer_header {
+    font-size: 2.5rem; /* Adjust the font size */
+    font-weight: 500;
+    position: absolute;
+    top: 30%; /* Adjust this value to move the text up */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    z-index: 10;
+    transition: color 0.3s ease;
+  }
+  
+  #footer_text {
+    position: absolute;
+    top: 40%; /* Adjust the position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #696868;
+    z-index: 10;
+  }
+  
+  #footer_link {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%; /* Adjust the position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    z-index: 10;
+  }
+  
+  .footer_container img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1; /* Ensure the image stays behind text */
+  }
+  
+  #contact_us_now {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 55%; /* Position it below the other elements */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: underline;
+    z-index: 10; /* Ensure it is in front of the image */
+  }
+  
+  .bottom_container {
+    position: absolute;
+    top: 65%; /* Adjust the position as needed */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Adjust layout for responsiveness */
+    padding: 0 50px; /* Add padding for spacing */
+    z-index: 10; /* Ensure the container is in front of the image */
+  }
+  
+  #news {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-bottom: 20px; /* Adjust spacing */
+  }
+  
+  #bot_p,
+  #email {
+    color: #929292;
+    margin-bottom: 10px; /* Adjust spacing */
+  }
+  
+  .bottom_container hr {
+    width: 100%;
+    margin: 20px auto; /* Center and space the hr */
+  }
+  
+  #subscribe {
+    text-decoration: underline;
+    font-weight: 400;
+    margin-bottom: 20px; /* Adjust spacing */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }  

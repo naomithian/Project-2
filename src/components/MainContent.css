@@ -1,0 +1,57 @@
+/* src/components/MainContent.css */
+.new-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+  }
+  
+  .image-left, .image-center, .text-right {
+    padding: 10px;
+  }
+  
+  .image-left img, .image-center img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .image-left {
+    flex: 1;
+  }
+  
+  .image-center {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .text-right {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .text-right h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #ndh {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .text-right .read-more {
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+  }
+  
+  .text-right .read-more:hover {
+    color: #a58b6f;
+    border-color: #a58b6f;
+  }
+  
