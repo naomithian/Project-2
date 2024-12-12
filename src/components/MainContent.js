@@ -18,10 +18,9 @@ const MainContent = ({ initialText }) => {
         <h1>Who We Are</h1>
         {textVisible && <p>{initialText}</p>}
         <button onClick={() => setTextVisible(!textVisible)}>
-          Toggle Text
+          {textVisible ? "Read Less" : "Read More"}
         </button>
         <p id="ndh"></p>
-        <a href="#" className="read-more">READ MORE</a>
       </div>
     </div>
   );
