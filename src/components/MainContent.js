@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './MainContent.css';
-import whoWeAreImg from '../assets/WhoWeAre.png'; 
-import elementImg from '../assets/Element.png'; 
+import whoWeAreImg from '../assets/WhoWeAre.png';
+import elementImg from '../assets/Element.png';
 
-const MainContent = () => {
+const MainContent = ({ initialText }) => {
+  const [textVisible, setTextVisible] = useState(true);
+
   return (
     <div id="MainContent" className="new-layout">
       <div className="image-left">
@@ -14,7 +16,10 @@ const MainContent = () => {
       </div>
       <div className="text-right">
         <h1>Who We Are</h1>
-        <p>NDH is more than design—it's emotion. Marrying luxury with meaning, we shape spaces that mirror individual narratives and foster connections. Each room becomes an echo of personal stories and dreams realized.</p>
+        {textVisible && <p>{initialText}</p>}
+        <button onClick={() => setTextVisible(!textVisible)}>
+          Toggle Text
+        </button>
         <p id="ndh"></p>
         <a href="#" className="read-more">READ MORE</a>
       </div>
