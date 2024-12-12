@@ -1,26 +1,26 @@
-/* src/components/Footer.css */
+
 .footer_container {
     position: relative;
     width: 100%;
     background-color: whitesmoke;
-    text-align: center; /* Center the text */
-    padding: 50px 0; /* Add some padding for spacing */
+    text-align: center; 
+    padding: 50px 0; 
   }
   
   .footer_header {
-    font-size: 2.5rem; /* Adjust the font size */
+    font-size: 2.5rem; 
     font-weight: 500;
     position: absolute;
-    top: 30%; /* Adjust this value to move the text up */
+    top: 30%; 
     left: 50%;
-    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    transform: translate(-50%, -50%); 
     z-index: 10;
     transition: color 0.3s ease;
   }
   
   #footer_text {
     position: absolute;
-    top: 40%; /* Adjust the position as needed */
+    top: 40%; 
     left: 50%;
     transform: translate(-50%, -50%);
     color: #696868;
@@ -30,7 +30,7 @@
   #footer_link {
     font-size: 1.2rem;
     position: absolute;
-    top: 50%; /* Adjust the position as needed */
+    top: 50%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: underline;
@@ -42,54 +42,54 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
-    z-index: 1; /* Ensure the image stays behind text */
+    z-index: 1; 
   }
   
   #contact_us_now {
     font-size: 1.2rem;
     position: absolute;
-    top: 55%; /* Position it below the other elements */
+    top: 55%; 
     left: 50%;
     transform: translate(-50%, -50%);
     text-decoration: underline;
-    z-index: 10; /* Ensure it is in front of the image */
+    z-index: 10; 
   }
   
   .bottom_container {
     position: absolute;
-    top: 65%; /* Adjust the position as needed */
+    top: 65%; 
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /* Adjust layout for responsiveness */
-    padding: 0 50px; /* Add padding for spacing */
-    z-index: 10; /* Ensure the container is in front of the image */
+    flex-wrap: wrap; 
+    padding: 0 50px; 
+    z-index: 10; 
   }
   
   #news {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 2rem;
-    margin-bottom: 20px; /* Adjust spacing */
+    margin-bottom: 20px; 
   }
   
   #bot_p,
   #email {
     color: #929292;
-    margin-bottom: 10px; /* Adjust spacing */
+    margin-bottom: 10px; 
   }
   
   .bottom_container hr {
     width: 100%;
-    margin: 20px auto; /* Center and space the hr */
+    margin: 20px auto; 
   }
   
   #subscribe {
     text-decoration: underline;
     font-weight: 400;
-    margin-bottom: 20px; /* Adjust spacing */
+    margin-bottom: 20px; 
   }
   
   .navbar {
